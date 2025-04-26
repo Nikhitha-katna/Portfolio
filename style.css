@@ -201,6 +201,7 @@ html {
     align-items: center;
     text-align: center;
     width: 95%;
+    margin-top: -5.5em;
     /* margin: 3em; */
     padding: 1em;
    
@@ -218,10 +219,10 @@ html {
   }
 
   .about-me-section p {
-    margin: 1em;
+    
     margin-bottom: 1em;
     text-align: center;
-    font-size: .7em;
+    font-size: .5em;
   }
 
   .tech button {
