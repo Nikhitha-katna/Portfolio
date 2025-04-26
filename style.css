@@ -238,7 +238,7 @@ html {
 /* Desktops and up (>=468px) */
 @media (min-width:468px){
   .about-me-section p {
-    font-size:1em;
+    font-size:.8em;
   }
 }
 
@@ -302,8 +302,8 @@ html {
   
   width: 100%;
   max-width: 400px;
-  height: 100%; /* Makes the image height equal to the container height */
-  object-fit: cover; /* Ensures the image maintains its aspect ratio */
+  height: 100%;
+  object-fit: cover; 
   border-radius: 10px; 
 }
 
@@ -346,7 +346,7 @@ html {
 /* Tablets (>= 600px) */
 .project-img img {
   max-width: 320px;
-  height: 100%; /* Equal height */
+  height: 100%; 
 }
 
 /* Tablet/Desktop */
@@ -366,7 +366,7 @@ html {
 
   .project-img img {
     max-width: 550px;
-    height: 100%; /* Equal height */
+    height: 100%; 
   }
 }
 
@@ -374,7 +374,7 @@ html {
 
 /* Mobile First (Default) */
 .contact {
-  width: 90%;
+  width: 45%;
   max-width: 500px;
   margin: 2rem auto;
   display: flex;
@@ -453,7 +453,7 @@ html {
 /* footer */
 
 footer {
-  background-color: black; /* Dark background */
+  background-color: black;
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -495,5 +495,5 @@ footer p {
   margin-top: 10px;
 }
 
-/* Adjust the size and spacing of social icons as needed */
+
 
